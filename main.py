@@ -1,8 +1,8 @@
 # main.py
 
-from password_strength.input import get_password
-from password_strength.scoring import calculate_strength_score
-from password_strength.feedback import detect_weaknesses, generate_recommendations, display_password_strength
+from input import get_password
+from scoring import calculate_strength_score
+from feedback import detect_weaknesses, generate_recommendations, display_password_strength
 
 if __name__ == "__main__":
     password = get_password()
