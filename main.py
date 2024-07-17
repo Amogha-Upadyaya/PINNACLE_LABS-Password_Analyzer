@@ -14,7 +14,7 @@ def main():
 
         try_again = input("\nWould you like to try another password? (yes/no): ").strip().lower()
         if try_again != 'yes':
-            print("Thank you for using the Password Strength Evaluator!")
+            print("\nThank you for using the Password Strength Evaluator!")
             break
 
 if __name__ == "__main__":

@@ -3,7 +3,7 @@
 import sys
 import platform
 
-def get_password(prompt='Enter your password: '):
+def get_password(prompt='\nEnter your password: '):
     """
     Prompt the user to enter their password securely, displaying '*' for each character.
     """
