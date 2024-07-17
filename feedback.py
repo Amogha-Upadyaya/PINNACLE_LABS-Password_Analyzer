@@ -1,6 +1,6 @@
 # password_strength/feedback.py
 
-from .checks import (
+from checks import (
     check_minimum_length,
     check_character_variety,
     check_dictionary_words,
