@@ -1,4 +1,4 @@
-# password_strength/scoring.py
+# scoring.py
 
 from checks import (
     check_minimum_length,

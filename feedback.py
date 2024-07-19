@@ -1,4 +1,4 @@
-# password_strength/feedback.py
+# feedback.py
 
 from checks import (
     check_minimum_length,

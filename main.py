@@ -5,6 +5,9 @@ from scoring import calculate_strength_score
 from feedback import detect_weaknesses, generate_recommendations, display_password_strength
 
 def main():
+    """
+    Main function to evaluate the strength of user-provided passwords.
+    """
     while True:
         password = get_password()
         score = calculate_strength_score(password)

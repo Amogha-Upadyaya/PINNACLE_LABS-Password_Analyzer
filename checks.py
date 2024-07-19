@@ -1,4 +1,4 @@
-# password_strength/checks.py
+# checks.py
 
 import re
 

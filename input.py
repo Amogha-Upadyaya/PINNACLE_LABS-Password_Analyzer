@@ -1,4 +1,4 @@
-# password_strength/input.py
+# input.py
 
 import sys
 import platform
