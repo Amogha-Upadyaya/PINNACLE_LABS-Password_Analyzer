@@ -1,17 +1,12 @@
 # password_strength/checks.py
 
 import re
-import nltk
-from nltk.corpus import words
-
-nltk.download('words')
-word_list = set(words.words())
 
 def check_minimum_length(password):
     """
     Check if the password meets the minimum length requirement.
     """
-    min_length = 12
+    min_length = 8
     return 20 if len(password) >= min_length else 0
 
 def check_character_variety(password):
@@ -30,16 +25,6 @@ def check_character_variety(password):
         score += 10
 
     return score
-
-def check_dictionary_words(password):
-    """
-    Check if the password contains dictionary words.
-    """
-    lower_password = password.lower()
-    for word in word_list:
-        if word in lower_password:
-            return -20
-    return 0
 
 def check_keyword_patterns(password):
     """

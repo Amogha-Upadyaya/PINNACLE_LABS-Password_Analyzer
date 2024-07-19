@@ -3,7 +3,6 @@
 from checks import (
     check_minimum_length,
     check_character_variety,
-    check_dictionary_words,
     check_keyword_patterns,
     check_repetitions
 )
@@ -16,7 +15,6 @@ def calculate_strength_score(password):
 
     score += check_minimum_length(password)
     score += check_character_variety(password)
-    score += check_dictionary_words(password)
     score += check_keyword_patterns(password)
     score += check_repetitions(password)
 
